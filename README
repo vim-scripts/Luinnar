@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2189
+
+This is a dark color scheme with bright text colors. The background is absolutely black, so the color scheme would suit only the people who aren't afraid of darkness. The text colors are like road lights at night, it's magical from my point of view.
+
+Below are some examples:
+http://luinnar.narod.ru/vim/qsort.png
+http://luinnar.narod.ru/vim/qsort-term.png (in terminal)
+
+http://luinnar.narod.ru/vim/pick.png
+http://luinnar.narod.ru/vim/pick-term.png (in terminal)
+
+http://luinnar.narod.ru/vim/dirent.png
+http://luinnar.narod.ru/vim/dirent-term.png (in terminal)
+
+Diff mode:
+http://luinnar.narod.ru/vim/vim-diff.png
+http://luinnar.narod.ru/vim/vim-diff-term.png (in terminal)
