@@ -1,6 +1,6 @@
-" Vim color file -- luinnar
+" Vim color file -- Luinnar
 " Maintainer: Luinnar
-" Last Change: 10-Aug-2010
+" Last Change: 09-Nov-2010
 
 set background=dark
 highlight clear
@@ -18,7 +18,7 @@ set cpo&vim
 
 " text
 
-hi Normal       guifg=#00ffff  ctermfg=cyan       guibg=#000000 ctermbg=black
+hi Normal       guifg=#00ffff  ctermfg=darkcyan       guibg=#000000 ctermbg=black
 hi Folded       guifg=#c2bfa5  ctermfg=lightgray  guibg=#202020 ctermbg=black  gui=underline cterm=underline
 hi LineNr       guifg=#928c75  ctermfg=darkgray   guibg=#000000 ctermbg=black
 hi Directory    guifg=#00bbdd  ctermfg=cyan       guibg=#000000 ctermbg=black
@@ -80,23 +80,23 @@ hi WarningMsg   guifg=#ccae22 ctermfg=yellow    guibg=#000000 ctermbg=black  gui
 " syntax highlighting groups (:help group-name)
 
 hi Comment      guifg=#b0b010  ctermfg=brown       guibg=#000000 ctermbg=black
-hi Constant     guifg=#00ff20  ctermfg=green       guibg=#000000 ctermbg=black
-hi Number       guifg=#00ff20  ctermfg=green       guibg=#000000 ctermbg=black
 hi Keyword      guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black
 hi Statement    guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black  gui=bold cterm=bold 
-hi StorageClass guifg=#b0ffb0  ctermfg=lightgreen  guibg=#000000 ctermbg=black  gui=bold cterm=bold
-hi Structure    guifg=#b0ffb0  ctermfg=lightgreen  guibg=#000000 ctermbg=black  gui=bold cterm=bold
-hi Type         guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black  gui=NONE cterm=NONE
+hi StorageClass guifg=#b0ffb0  ctermfg=white       guibg=#000000 ctermbg=black  gui=bold cterm=NONE
+hi Structure    guifg=#b0ffb0  ctermfg=white       guibg=#000000 ctermbg=black  gui=bold cterm=NONE
+hi Type         guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black  gui=NONE
 hi Identifier   guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black  gui=NONE cterm=NONE
 hi Operator     guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black
 hi Delimiter    guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black
-hi PreProc      guifg=#00b000  ctermfg=darkgreen   guibg=#000000 ctermbg=black
-hi Macro        guifg=#00b000  ctermfg=darkgreen   guibg=#000000 ctermbg=black
 hi Todo         guifg=#a00000  ctermfg=darkred     guibg=#000000 ctermbg=black  gui=bold cterm=bold
 hi Error        guifg=#ffffff  ctermfg=white       guibg=#ff0000 ctermbg=red
-hi Special      guifg=#ffff00  ctermfg=yellow      guibg=#000000 ctermbg=black
-hi Function     guifg=#20c0ff  ctermfg=lightblue   guibg=#000000 ctermbg=black
+hi Function     guifg=#2080ff  ctermfg=blue        guibg=#000000 ctermbg=black
 hi Underlined   guifg=#80a0ff  ctermfg=cyan        guibg=#000000 ctermbg=black  gui=underline cterm=underline
 hi Ignore       guifg=#888888  ctermfg=darkgray    guibg=#000000 ctermbg=black
+hi Constant     guifg=#00ff20  ctermfg=green       guibg=#000000 ctermbg=black
+hi Number       guifg=#00ff20  ctermfg=green       guibg=#000000 ctermbg=black
+hi PreProc      guifg=#00b000  ctermfg=darkgreen   guibg=#000000 ctermbg=black
+hi Macro        guifg=#00b000  ctermfg=darkgreen   guibg=#000000 ctermbg=black
+hi Special      guifg=#ffff00  ctermfg=yellow      guibg=#000000 ctermbg=black
 
 let &cpo = save_cpo
